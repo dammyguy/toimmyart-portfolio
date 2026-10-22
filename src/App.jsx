@@ -326,7 +326,7 @@ const handleInternalLink = (path) => (event) => navigateTo(path, event);
     aria-label="ToimmyArt home"
     onClick={handleInternalLink('/')}
   >
-    <img src="/logo.png" alt="ToimmyArt Studio logo" />
+    <img src="/logo.webp" alt="ToimmyArt Studio logo" />
   </a>
 
   {/* Mobile theme toggle — outside the dropdown */}
@@ -426,7 +426,7 @@ const handleInternalLink = (path) => (event) => navigateTo(path, event);
         <div className="hero-lower">
           <div className="hero-art hero-photo">
           <img
-    src="/images/tom.png"
+    src="/images/tom.webp"
     alt="Iretomiwa Akinbobola, graphic designer"
            />
            <span className="art-label">TOIMMYART / THE DESIGNER</span>
@@ -617,7 +617,7 @@ const handleInternalLink = (path) => (event) => navigateTo(path, event);
           </div>
           <div className="software-tools-grid">
             {[
-              { name: 'Concepts', image: '3.png' },
+              { name: 'CorelDraw', image: '3.png' },
               { name: 'Adobe Photoshop', image: '4.png' },
               { name: 'Adobe Illustrator', image: '5.png' },
               { name: 'Sketchbook', image: '6.png' },
