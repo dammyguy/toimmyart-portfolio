@@ -704,7 +704,7 @@ const handleInternalLink = (path) => (event) => navigateTo(path, event);
           ))}
         </div>
         <div className="contact-bottom">
-          <a href="/" className="brand" aria-label="ToimmyArt home" onClick={handleInternalLink('/')}><img src="/logo.png" alt="ToimmyArt Studio logo" /></a>
+          <a href="/" className="brand" aria-label="ToimmyArt home" onClick={handleInternalLink('/')}><img src="/logo.webp" alt="ToimmyArt Studio logo" /></a>
           <span><FontAwesomeIcon icon={faLocationDot} /> LAGOS, NIGERIA</span>
           <span>&copy; TOIMMYART STUDIO</span>
         </div>
